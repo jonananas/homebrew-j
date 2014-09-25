@@ -1,0 +1,8 @@
+# Releasing a new version:
+
+# tag it
+git tag <new tag>
+git push origin --tags
+# sha it
+shasum <file>
+# Now update url and sha1 in .rb-file. Don't forget to use raw url.
