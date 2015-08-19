@@ -2,8 +2,8 @@ require "formula"
 
 class JbossDeployLatest < Formula
   homepage "https://github.com/jonananas/jboss-deploy-latest"
-  url "https://raw.githubusercontent.com/jonananas/jboss-deploy-latest/0.0.9/deploy.sh"
-  sha1 "24f648f0d664a14b4d73e03b50a492279989cc0e"
+  url "https://raw.githubusercontent.com/jonananas/jboss-deploy-latest/0.1.0/deploy.sh"
+  sha1 "7c8b696da9f2f0c2534c43f51146a3d7cb9e1eb2"
 
   def install
     bin.install 'deploy.sh'
